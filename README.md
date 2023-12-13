@@ -6,6 +6,10 @@
 <br><br>
 🇧🇷 - Para download das EFIs BASEs, é necessário você ser membro de qualquer categoria no canal do YouTube e conectar seu Discord à sua conta YouTube para acesso à sala `#efi-base`;
 
+![youtube_connection](https://github.com/luchina-gabriel/BASE-EFI-AMD-BULLDOZER-FX-PROCESSORS-PUBLIC/assets/23700365/f22a9600-325a-460e-b9b9-31acf15fd54d)
+<br>
+![efi-base-channel](https://github.com/luchina-gabriel/BASE-EFI-AMD-BULLDOZER-FX-PROCESSORS-PUBLIC/assets/23700365/43f55897-2ff9-4d42-af4f-2f0cdd23bfb5)
+
 # Basic Info
 
 Note|Description
