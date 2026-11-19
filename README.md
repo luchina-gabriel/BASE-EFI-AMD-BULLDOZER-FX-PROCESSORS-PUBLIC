@@ -25,7 +25,7 @@ Last Supported OS|macOS 12 Monterey.
 
 - Opencore version: 1.0.8
 - Release date (OC/Kexts): 27/09/2026
-- Last Update Repository: 27/09/2026
+- Last Update Repository: 19/11/2026
 
 # Basic Steps
 
@@ -214,6 +214,19 @@ See the table below for the values matching your CPU core count.
 So for example, a user with a 6-core processor should use these `Replace` values: `B8 06 0000 0000` / `BA 06 0000 0000` / `BA 06 0000 0090` / `BA 06 0000 00`
 
 **Note:** *MacOS Monterey installation requires `Misc -> Security -> SecureBootModel` to be disabled in the config.<br />Also TPM needs to be disabled in the BIOS. Both can be enabled after install.*
+
+# Special notes - For NVIDIA GPU
+
+boot-args
+- `nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 -amfipassbeta`
+
+csr-active-config
+- `03080000`
+- `430A0000`
+
+Other adjustments
+- Kernel > Block > "Allow NullMoth Nvidia Driver" > Enabled
+- WhateverGreen removed or disabled
 
 ## TRX40 Systems
 
